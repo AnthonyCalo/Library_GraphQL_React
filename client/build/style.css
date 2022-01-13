@@ -1,0 +1,315 @@
+.accordion_title:hover{
+    cursor: pointer;
+}
+.accordion{
+    width: 100%;
+    border: 2px solid;
+}
+.authDiv{
+    border: 2px solid green;
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom: 100px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 50px;
+    background-color: green;
+    backdrop-filter:blur(2px);
+}
+.authInput{
+    background-color: white;
+}
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+body{
+    background-image: url("/images/dark.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.editBtnDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px;
+}
+.fullWidth{
+    width: 100%;
+}
+.header{
+    background-color: green;
+}
+h1{
+    color: white;
+}
+.close{
+    color: red;
+}
+
+.input-field label{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+i:hover{
+    cursor: pointer;
+}
+.iTitle{
+    font-style: italic;
+    color: antiquewhite;
+}
+input{
+    font-size:2rem;
+}
+input:not([type]){
+    font-size: 2rem;
+    background-color: white;
+}
+input[type=password]{
+    font-size: 2rem;
+    background-color: white;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    margin-left: 3%;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+}
+.navBarDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbarItemLI{
+    width: 20%;
+    text-align: center;
+}
+.navbarItemLIOne{
+    width: 20%;
+    text-align: center;
+}
+.ui.card>.image>img{
+    height: 350px;
+}
+image{
+    height: 305px;
+}
+.left {
+    float: left !important;
+}
+.moreButton{
+    margin-left: 50%;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+.moreButton:hover{
+    cursor: pointer;
+}
+.mutationClick:hover{
+    font-size:1.1em;
+}
+.right{
+    float: left;
+    margin-left: 0;
+}
+.resultsH2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+}
+.resultsDiv{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+#root{
+    height: 100%;
+}
+.shelfParam{
+    color: blue;
+    font-weight: bold;
+}
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.reviewDiv{
+    height: 100vh;
+}
+.reviewEdit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textArea{
+    font-size: 25px;
+    color: #E8E8E8;
+    width: 70%;
+    min-height: auto;
+    margin-top: 30px;
+    margin-right: 25px;
+    line-height: 32px;
+    background-color: #497959;
+    padding: 20px 30px;
+    overflow-y: auto;
+    height: 60%;
+    margin-left: 15%;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+};
+
+.submitReviewBtn{
+    margin-right: 50px;
+}
+.bookTitleResult{
+    font-weight: bold;
+    color: black;
+    font-size:1.5rem;
+}
+
+#pubButton{
+    margin-right: 50px;
+}
+
+.homePage{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/library2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeTextDiv{
+    height: 33%;
+    width: 33%;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 25px;
+    line-height: 2rem;
+}
+.loginBtn{
+    height: 50px;
+    margin: 10px;
+}
+.loginDiv{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/library2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 10%;
+
+
+}
+/* .searchBar{
+    font-size: 25px;
+    color: #E8E8E8;
+    line-height: 32px;
+    min-height: auto;
+    margin-top: 30px;
+    background-color: #497959;
+    padding: 20px 0px;
+    overflow-y: auto;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+} */
+.searchForm{
+    display: flex;
+    align-items: center;
+}
+
+input[type=text].searchInput{
+    height: 1.5rem;
+    font-size: 40px;
+    color: #E8E8E8;
+    display: inline;
+    width: 70%;
+    margin-left:15%;
+    min-height: auto;
+    margin: 30px auto 0 auto;
+    background-color: #497959;
+    padding: 20px  30px;
+    overflow-y: auto;
+    box-shadow: -1px 2px 2px 0px #555, inset 0 0 10px 0 #555;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+input[type=text].searchInput:focus{
+    border: #B78240 solid 10px;
+}
+.notAuthHeader li{
+    width: 50%;
+    text-align: center;
+}
+.notAuthHeader{
+    width: 100%;
+    align-items: center;
+}
+.ui.card{
+    background-color: green;
+
+}
+.column{
+    margin-bottom: 30px;
+}

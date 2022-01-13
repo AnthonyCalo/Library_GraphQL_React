@@ -1,0 +1,77 @@
+.reviewDiv{
+    height: 100vh;
+}
+.seeReviewDiv{
+    height: 800px;
+}
+.reviewImgDiv{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+
+}
+.reviewImg{
+    height: 250px;
+}
+
+.back{
+    position: absolute;
+    font-size: 3rem;
+    left: 3%;
+    top:100px;
+}
+.back:hover{
+    cursor: pointer;
+}
+textarea{
+    font-size: 25px;
+    color: #E8E8E8;
+    display: inline;
+    line-height: 32px;
+    width: 70%;
+    min-height: auto;
+    margin-top: 30px;
+    margin-right: 25px;
+    background-color: #497959;
+    padding: 20px 30px;
+    overflow-y: auto;
+    height: 480px;
+    margin-left: 15%;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+};
+.textArea{
+    font-size: 25px;
+    color: #E8E8E8;
+    width: 70%;
+    min-height: auto;
+    margin-top: 30px;
+    margin-right: 25px;
+    background-color: #497959;
+    padding: 20px 30px;
+    overflow-y: auto;
+    height: 60%;
+    margin-left: 15%;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+};
+
+.btn{
+    margin-right: 50px;
+}
